@@ -7,20 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in Astronomy at the **Kavli Institute for Astronomy and Astrophysics (KIAA), Peking University**, working with **Prof. Gregory J. Herczeg**.
+I am a Ph.D. student in Astrophysics at the **Kavli Institute for Astronomy and Astrophysics (KIAA), Peking University**, working with **Prof. Gregory J. Herczeg**.
 
-My research focuses on **pre-main-sequence stellar evolution** and the observational calibration of stellar masses and ages. I am particularly interested in how **starspots, magnetic activity, lithium depletion, rotation, and accretion** affect the observed properties of young stars and the ages inferred from evolutionary models.
+My research focuses on **pre-main-sequence evolution** and the observational calibration of stellar masses and ages. I am particularly interested in how **starspots** affect the observed properties of young stars and the ages inferred from evolutionary models.
 
-A major part of my work uses large surveys and time-domain data, including **Gaia**, high-resolution spectroscopy, and space-based photometric and spectroscopic surveys, to test pre-main-sequence evolutionary models on both individual stars and stellar populations.
 
 ## Research interests
 
-- Pre-main-sequence stellar evolution and age determination
+- Pre-main-sequence stellar evolution
+- Age determination for young stars
 - Starspots, magnetic activity, and surface inhomogeneities
-- Lithium as an age diagnostic in young stars
-- Gaia spectroscopy and astrometry of young stellar populations
-- Rotation, accretion, disks, and stellar parameters
-- Empirical tests of evolutionary models with binaries and dynamical masses
+
 
 For more details, see my [Research]({{ '/research/' | relative_url }}) page and [CV]({{ '/cv/' | relative_url }}).
 
