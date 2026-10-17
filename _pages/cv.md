@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -7,58 +7,30 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+{% assign cv_pdf = site.static_files | where: 'path', '/files/Yan_Luo_CV.pdf' | first %}
+{% if cv_pdf %}
+[**Download CV (PDF)**]({{ '/files/Yan_Luo_CV.pdf' | relative_url }}){: .btn .btn--primary }
+{% endif %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Current Position
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Ph.D. Student in Astronomy**, Peking University<br>
+Kavli Institute for Astronomy and Astrophysics (KIAA)<br>
+Advisor: **Gregory J. Herczeg**<br>
+2024–present
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Areas
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Pre-main-sequence stellar evolution; young stellar populations; starspots and magnetic activity; lithium depletion; stellar rotation; Gaia spectroscopy and astrometry; empirical calibration of stellar masses and ages.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Current Research
+
+- Surface inhomogeneities and their impact on PMS stellar parameters and age determination
+- The contribution of starspots to the observed lithium dispersion in young stars
+- Gaia-based tests of coevality and evolutionary models using young wide binaries
+- Dynamical-mass calibration of PMS evolutionary tracks
+- Optical-to-infrared stellar spectroscopy with Gaia XP and SPHEREx
+
+## Publications
+
+See the [Publications]({{ '/publications/' | relative_url }}) page.
