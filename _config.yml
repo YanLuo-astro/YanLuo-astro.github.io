@@ -23,7 +23,7 @@ repository               : "YanLuo-astro/YanLuo-astro.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           :
+  avatar           : "me_life.jpeg"
   name             : "Yan Luo （骆彦）"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. student in Astrophysics at Peking University"
