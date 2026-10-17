@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Yan Luo"
 title_separator          : "-"
-name                     : &name "Yan Luo"
+name                     : &name "Yan Luo （骆彦）"
 description              : &description "Pre-main-sequence stellar evolution, young stars, starspots, and stellar ages."
 url                      : https://yanluo-astro.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -24,12 +24,12 @@ repository               : "YanLuo-astro/YanLuo-astro.github.io"
 author:
   # Biographic information
   avatar           :
-  name             : "Yan Luo"
+  name             : "Yan Luo （骆彦）"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student in Astronomy at Peking University"
+  bio              : "Ph.D. student in Astrophysics at Peking University"
   location         : "Beijing, China"
-  employer         : "Kavli Institute for Astronomy and Astrophysics, Peking University"
-  uri              : "https://kiaa.pku.edu.cn/"
+  employer         : "Department of Astronomy, Peking University; Kavli Institute for Astronomy and Astrophysics, Peking University"
+ # uri              : "https://kiaa.pku.edu.cn/"
   email            : "2401110280@stu.pku.edu.cn"
 
   # Academic websites
